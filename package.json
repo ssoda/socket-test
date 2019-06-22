@@ -1,0 +1,14 @@
+{
+  "name": "socket-test",
+  "version": "1.0.0",
+  "description": "just wanna try to test socket",
+  "main": "server.js",
+  "author": "ssoda",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "socket.io-client": "^2.2.0"
+  }
+}
