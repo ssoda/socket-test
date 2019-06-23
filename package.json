@@ -5,10 +5,17 @@
   "main": "server.js",
   "author": "ssoda",
   "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "test": "./node_modules/mocha/bin/mocha test/* --timeout 10000 --exit"
+  },
   "dependencies": {
     "socket.io": "^2.2.0"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.0.0",
+    "mocha": "^6.1.4",
     "socket.io-client": "^2.2.0"
   }
 }
